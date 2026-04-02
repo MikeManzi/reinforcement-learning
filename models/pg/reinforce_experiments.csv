@@ -1,0 +1,11 @@
+algorithm,run,learning_rate,gamma,batch_size,mean_reward,std_reward,final_episode_reward,episodes_observed,convergence
+REINFORCE,1,0.001,0.99,6,-7.0,0.0,9.0,1320,fast-improving
+REINFORCE,2,0.0008,0.98,8,-7.0,0.0,9.0,1760,fast-improving
+REINFORCE,3,0.0007,0.97,6,-5.0,0.0,-6.0,1320,noisy-or-stagnant
+REINFORCE,4,0.0005,0.99,10,-6.0,0.0,-9.0,2200,noisy-or-stagnant
+REINFORCE,5,0.0003,0.96,8,-8.0,0.0,8.0,1760,fast-improving
+REINFORCE,6,0.0009,0.95,12,-7.0,0.0,9.0,2640,noisy-or-stagnant
+REINFORCE,7,0.0006,0.98,10,-5.0,0.0,-3.0,2200,noisy-or-stagnant
+REINFORCE,8,0.0004,0.97,12,-8.0,0.0,0.0,2640,fast-improving
+REINFORCE,9,0.0002,0.99,8,-8.0,0.0,8.0,1760,stable
+REINFORCE,10,0.0012,0.94,6,-4.0,0.0,-7.0,1320,stable

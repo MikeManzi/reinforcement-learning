@@ -1,0 +1,8 @@
+{
+  "run": 10,
+  "learning_rate": 0.0012,
+  "gamma": 0.94,
+  "batch_size": 6,
+  "mean_reward": -4.0,
+  "std_reward": 0.0
+}

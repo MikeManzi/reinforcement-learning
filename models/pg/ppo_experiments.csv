@@ -1,0 +1,11 @@
+algorithm,run,learning_rate,gamma,batch_size,mean_reward,std_reward,final_episode_reward,episodes_observed,convergence
+PPO,1,0.0003,0.99,64,-6.0,0.0,2.0,2165,stable
+PPO,2,0.0001,0.98,64,-8.0,0.0,2.0,2196,fast-improving
+PPO,3,0.0005,0.97,32,84.0,0.0,14.0,2169,stable
+PPO,4,0.0007,0.99,32,84.0,0.0,80.0,2194,stable
+PPO,5,0.0002,0.995,128,-6.0,0.0,6.0,2185,stable
+PPO,6,0.0004,0.96,64,-6.0,0.0,10.0,2165,noisy-or-stagnant
+PPO,7,0.0008,0.95,32,15.0,0.0,84.0,2248,stable
+PPO,8,0.0006,0.98,128,24.0,0.0,-4.0,2202,noisy-or-stagnant
+PPO,9,0.0009,0.97,64,25.0,0.0,77.0,2233,noisy-or-stagnant
+PPO,10,0.0003,0.94,32,24.0,0.0,-5.0,2131,stable

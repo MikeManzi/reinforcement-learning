@@ -1,0 +1,11 @@
+run,learning_rate,gamma,batch_size,exploration_fraction,exploration_final_eps,mean_reward,std_reward,final_episode_reward,episodes_observed,convergence
+1,0.001,0.98,32,0.3,0.05,-2.0,0.0,5.0,3188,fast-improving
+2,0.0007,0.99,32,0.35,0.03,0.0,0.0,5.0,3135,fast-improving
+3,0.0005,0.97,64,0.25,0.02,-1.0,0.0,-1.0,2814,stable
+4,0.0003,0.99,64,0.2,0.01,-3.0,0.0,-3.0,2965,stable
+5,0.0001,0.995,64,0.4,0.05,-8.0,0.0,-8.0,4170,noisy-or-stagnant
+6,0.0008,0.96,32,0.3,0.02,-8.0,0.0,-8.0,3111,stable
+7,0.0002,0.98,128,0.15,0.01,-5.0,0.0,-5.0,2856,noisy-or-stagnant
+8,0.0004,0.95,128,0.45,0.06,-3.0,0.0,-3.0,2897,noisy-or-stagnant
+9,0.0006,0.97,64,0.25,0.04,-2.0,0.0,-2.0,2941,fast-improving
+10,0.0009,0.99,32,0.35,0.01,-8.0,0.0,-8.0,3335,fast-improving

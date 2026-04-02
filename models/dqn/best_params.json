@@ -1,0 +1,10 @@
+{
+  "run": 2,
+  "learning_rate": 0.0007,
+  "gamma": 0.99,
+  "batch_size": 32,
+  "exploration_fraction": 0.35,
+  "exploration_final_eps": 0.03,
+  "mean_reward": 0.0,
+  "std_reward": 0.0
+}
